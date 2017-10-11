@@ -58,6 +58,11 @@
   }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+  ul {
+    background-color: red;
+    li {
+      background-color: green;
+    }
+  }
 </style>
