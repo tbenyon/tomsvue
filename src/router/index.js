@@ -10,7 +10,8 @@ export default new Router({
     {
       path: '/',
       name: 'Test',
-      component: Test
+      component: Test,
+      props: {msg: "THIS IS A PROP MESSAGE!"}
     }
   ]
 })

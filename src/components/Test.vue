@@ -18,12 +18,20 @@
     <br><br><br>
     <label>Got to 37:51 on <a href="https://youtu.be/z6hQqgvGI4Y?t=37m51s">video</a>.</label>
 
+
+    <h2>{{msg}}</h2>
   </div>
 </template>
 
 <script>
   export default {
     name: 'test',
+    props: {
+      msg: {
+        type: String,
+        default: "something"
+      }
+    },
     data() {
       return {
         title: 'Hello World Dave',
